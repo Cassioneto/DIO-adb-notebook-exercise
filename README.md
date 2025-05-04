@@ -32,7 +32,7 @@ Também a última das opções define um tempo de desligamento a pois inatividad
 Depois, do cluster criado podemos rever e alterar, algumas definições.  
 
 #  Importando os ficheiros
-<img src="img/confgure-cluster.PNG">
+<img src="img/import-files.PNG">
 existem diversas formas de importar ficheiro csv, neste exercício temos três url de ficheiro url:  
 O primeiro foi importado pelo Pandas e depois convertido em dataframe do spark,
 os outros via spark, mas com sintaxe ligeiramente diferente. Poder-se-ia simplificar fazendo a importação dos ficheiro em lotes, otimizando o processo com menos código e o processo ágil e de mais fácil manutenção, detalhes que se devem ter em conta, mais para fins educacionais foi explorada algumas da diversas formas de o fazer...
