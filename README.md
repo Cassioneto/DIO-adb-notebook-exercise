@@ -40,9 +40,11 @@ os outros via spark, mas com sintaxe ligeiramente diferente. Poder-se-ia simplif
 
 # Analizando o exercicio
 
-Após a importação dos dados, para criar consultas SQL, poderiamos carregar os dados diretamente via catalog, mas a opção utilizada foi carregar diretamente em dataframe, logo é
-<img src="img/create-sql-visualisation.png">
+Após a importação dos dados, para criar consultas SQL, poderiamos carregar os dados diretamente via catalog, mas a opção utilizada foi carregar diretamente em dataframe, logo é necessário criar uma view temporaria
+<img src="img/create-view.PNG">
 apois uma consuta SQL podemos criar uma visualização pela UI,  
+<img src="img/create-sql-visualisation.png">
+#    Outras visualizações
 <img src="img/matplotlib.PNG">
 Para usar o matplotlib, é necessário converter o nosso dataframe para um Pandas dataframe:
 df_sales = df_spark.toPandas()
