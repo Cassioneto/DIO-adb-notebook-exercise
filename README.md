@@ -50,7 +50,7 @@ Para usar o matplotlib, é necessário converter o nosso dataframe para um Panda
 df_sales = df_spark.toPandas()
 Com matplotlib é possível criar vários de gráficos, pois é uma biblioteca python para criação de visualizações para dados estatísticos.
 <img src="img/seaborn.PNG">
-A seaborn, também biblioteca python, também permite criar gráficos do matplotlib, mas oferece uma abstrai alguma complexidade na criação dos mesmos gráficos.
+A seaborn, também biblioteca python, também permite criar gráficos do matplotlib, mas abstrai alguma complexidade na criação dos mesmos gráficos.
 
 O exercicio analisa a faturação nos anos 2019 a 2021, Veja o notebook completo: [Exercício Completo](notebooks/Explore%20data%20with%20Azure%20Databricks.ipynb)
 
