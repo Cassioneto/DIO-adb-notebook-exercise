@@ -18,12 +18,12 @@ Agora iremos fazer o Exercício: https://microsoftlearning.github.io/mslearn-dat
 No DataBricks community é mais simplificado as opções disponíveis para criar um Cluster, basicamente nome, versão, e podendo adicionar algumas configurações adicionais do spark.  
 Mas, no Azure DataBricks temos mais opções relevantes a preencher, como por exemplos:  
 
-Policy: Unrestricted
-Cluster mode: Single Node
-Access mode: Single user (with your user account selected)
-Use Photon Acceleration: Selected
-Node type: Standard_D4ds_v5
-Terminate after 20 minutes of inactivity
+Policy: Unrestricted  
+Cluster mode: Single Node  
+Access mode: Single user (with your user account selected)  
+Use Photon Acceleration: Selected  
+Node type: Standard_D4ds_v5  
+Terminate after 20 minutes of inactivity  
 
 Estas opções definirão o comportamento do cluster, como opção "Single Node" útil para pequenos projetos, e cluster de desenvolvimento pois todo spark rodara em apenas um nó tendo um desempenho baixo para volumes grande ou análise complexas.  
 Também a última das opções define um tempo de desligamento a pois inatividade do cluster, evitando custo com o cluster ativo sem uso.  
